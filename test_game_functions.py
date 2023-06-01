@@ -1,11 +1,6 @@
 import BlackJackFunksjoner
 
 
-def test_funksjon_test():
-    result = BlackJackFunksjoner.funksjon_test(1,2)
-    assert result == 3
-
-
 # check_if_user_has_blackjack returnerer 1 dersom spiller har 21
 def test_check_if_user_has_blackjack():
     user_has_blackjack = BlackJackFunksjoner.check_if_user_has_blackjack(21)
